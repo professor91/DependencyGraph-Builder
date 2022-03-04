@@ -47,7 +47,7 @@
     "queues.h": 1,
     "event.h": 3,
     "cluster.h": 8,
-    "json.hpp": 0,
+    "json.hpp": 2,
     "export.h": 1,
     "dpp.h": 10,
     "intents.h": 0,
