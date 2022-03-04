@@ -11,7 +11,7 @@ class jsdb:
     #1. dump data in json file
     def dumpdata(self):
         with open(self.fileName, "w") as wf:
-            json.dump(self._cacheddata, wf, indent=6)
+            json.dump(self._cacheddata, wf, indent=4)
         self.reload()
 
     #2. reload data from json file
