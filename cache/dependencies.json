@@ -1,246 +1,61 @@
 {
-      "sslclient.h": [
-            "export.h",
-            "discord.h",
-            "socket.h"
-      ],
-      "etf.h": [
-            "export.h",
-            "discord.h",
-            "nlohmann/json.hpp"
-      ],
-      "discordevents.h": [
-            "json_fwd.hpp"
-      ],
-      "integration.h": [
-            "export.h",
-            "json_fwd.hpp"
-      ],
-      "sysdep.h": [],
-      "discordvoiceclient.h": [
-            "export.h",
-            "json_fwd.hpp",
-            "wsclient.h",
-            "dispatcher.h",
-            "cluster.h",
-            "discordevents.h",
-            "socket.h"
-      ],
-      "cache.h": [
-            "export.h",
-            "discord.h"
-      ],
-      "json_fwd.hpp": [],
-      "discord.h": [
-            "export.h",
-            "voicestate.h",
-            "role.h",
-            "user.h",
-            "channel.h",
-            "guild.h",
-            "invite.h",
-            "dtemplate.h",
-            "emoji.h",
-            "ban.h",
-            "prune.h",
-            "voiceregion.h",
-            "integration.h",
-            "webhook.h",
-            "presence.h",
-            "intents.h",
-            "message.h",
-            "appcommand.h",
-            "stage_instance.h",
-            "auditlog.h",
-            "application.h",
-            "scheduled_event.h"
-      ],
-      "invite.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "user.h": [
-            "export.h",
-            "json_fwd.hpp"
-      ],
-      "commandhandler.h": [
-            "export.h",
-            "discord.h",
-            "dispatcher.h",
-            "json_fwd.hpp"
-      ],
-      "channel.h": [
-            "export.h",
-            "json_fwd.hpp"
-      ],
-      "scheduled_event.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "dtemplate.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "dispatcher.h": [
-            "export.h",
-            "discord.h",
-            "message.h",
-            "appcommand.h"
-      ],
-      "discordclient.h": [
-            "export.h",
-            "json_fwd.hpp",
-            "wsclient.h",
-            "dispatcher.h",
-            "cluster.h",
-            "discordvoiceclient.h",
-            "event.h"
-      ],
-      "guild.h": [
-            "export.h",
-            "voicestate.h"
-      ],
-      "win32_safe_warnings.h": [],
-      "socket.h": [],
-      "application.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "ban.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "webhook.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "role.h": [
-            "export.h",
-            "json_fwd.hpp",
-            "guild.h"
-      ],
-      "./dpp/fmt": {
-            "chrono.h": [],
-            "printf.h": [],
-            "ostream.h": [],
-            "format.h": [
-                  "fmt/format.h"
-            ],
-            "format-inl.h": [],
-            "compile.h": [],
-            "ranges.h": [],
-            "color.h": [],
-            "locale.h": [],
-            "os.h": [],
-            "core.h": [],
-            "args.h": [],
-            "posix.h": []
-      },
-      "voicestate.h": [
-            "export.h",
-            "json_fwd.hpp"
-      ],
-      "auditlog.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "emoji.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "voiceregion.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "exception.h": [
-            "export.h"
-      ],
-      "prune.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "version.h": [],
-      "stringops.h": [],
-      "queues.h": [
-            "export.h"
-      ],
-      "event.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "cluster.h": [
-            "export.h",
-            "discord.h",
-            "dispatcher.h",
-            "timer.h",
-            "json_fwd.hpp",
-            "discordclient.h",
-            "queues.h",
-            "cache.h"
-      ],
-      "./dpp/nlohmann": {
-            "json_fwd.hpp": [],
-            "json.hpp": [
-                  "",
-                  ""
-            ]
-      },
-      "export.h": [
-            "\t\twin32_safe_warnings.h"
-      ],
-      "dpp.h": [
-            "export.h",
-            "version.h",
-            "exception.h",
-            "dispatcher.h",
-            "discordclient.h",
-            "discord.h",
-            "cluster.h",
-            "cache.h",
-            "queues.h",
-            "commandhandler.h"
-      ],
-      "intents.h": [],
-      "stage_instance.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "appcommand.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "httplib.h": [
-            "socket.h"
-      ],
-      "wsclient.h": [
-            "export.h",
-            "sslclient.h"
-      ],
-      "presence.h": [
-            "export.h",
-            "discord.h",
-            "json_fwd.hpp"
-      ],
-      "timer.h": [
-            "export.h",
-            "discord.h"
-      ],
-      "message.h": [
-            "export.h",
-            "queues.h",
-            "json_fwd.hpp"
-      ]
+    "adl_serializer.hpp": [],
+    "json_fwd.hpp": [],
+    "./nlohmann/detail": {
+        "json_pointer.hpp": [],
+        "macro_scope.hpp": [],
+        "./nlohmann/detail/input": {
+            "binary_reader.hpp": [],
+            "parser.hpp": [],
+            "input_adapters.hpp": [],
+            "lexer.hpp": [],
+            "json_sax.hpp": [],
+            "position_t.hpp": []
+        },
+        "json_ref.hpp": [],
+        "string_escape.hpp": [],
+        "./nlohmann/detail/iterators": {
+            "primitive_iterator.hpp": [],
+            "iterator_traits.hpp": [],
+            "internal_iterator.hpp": [],
+            "json_reverse_iterator.hpp": [],
+            "iteration_proxy.hpp": [],
+            "iter_impl.hpp": []
+        },
+        "value_t.hpp": [],
+        "./nlohmann/detail/meta": {
+            "type_traits.hpp": [],
+            "identity_tag.hpp": [],
+            "void_t.hpp": [],
+            "cpp_future.hpp": [],
+            "./nlohmann/detail/meta/call_std": {
+                "begin.hpp": [],
+                "end.hpp": []
+            },
+            "detected.hpp": [],
+            "is_sax.hpp": []
+        },
+        "exceptions.hpp": [],
+        "macro_unscope.hpp": [],
+        "hash.hpp": [],
+        "./nlohmann/detail/output": {
+            "binary_writer.hpp": [],
+            "output_adapters.hpp": [],
+            "serializer.hpp": []
+        },
+        "./nlohmann/detail/conversions": {
+            "to_json.hpp": [],
+            "from_json.hpp": [],
+            "to_chars.hpp": []
+        }
+    },
+    "json.hpp": [],
+    "byte_container_with_subtype.hpp": [],
+    "./nlohmann/thirdparty": {
+        "./nlohmann/thirdparty/hedley": {
+            "hedley_undef.hpp": [],
+            "hedley.hpp": []
+        }
+    },
+    "ordered_map.hpp": []
 }
